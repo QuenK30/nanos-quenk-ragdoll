@@ -4,4 +4,5 @@ Events.Subscribe("toRagdoll", function(player)
             if not char:GetVehicle() then
                 char:SetRagdollMode(not char:IsInRagdollMode())
             end
+        end
 end)
